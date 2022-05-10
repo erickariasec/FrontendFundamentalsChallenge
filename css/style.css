@@ -8,7 +8,7 @@ body {
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
-body, div, form, input, textarea, label { 
+body, div, form, input, textarea, label, a { 
     padding: 0;
     margin: 0;
     outline: none;
@@ -83,6 +83,26 @@ button {
 }
 button:hover {
     background: #00d4ff;
+}
+.log-in {
+    margin-top: 10px;
+    text-align: center;
+}
+.log-in a {
+    text-decoration: none;
+}
+.log-in a:hover {
+    text-decoration: underline;
+}
+.register {
+    margin-top: 10px;
+    text-align: center;
+}
+.register a {
+    text-decoration: none;
+}
+.register a:hover {
+    text-decoration: underline;
 }
 @media (min-width: 568px) {
     .name-item {
