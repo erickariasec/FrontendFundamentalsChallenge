@@ -8,9 +8,9 @@ body {
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
-body, div, form, input, textarea, label, a { 
+body, form, input, textarea, label, a { 
     padding: 0;
-    margin: 0;
+    margin: 5px 0;
     outline: none;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -53,17 +53,13 @@ input {
     width: 100%;
     padding: 5px;
 }
-.item:hover p, .item:hover i, input:hover::placeholder {
+input:hover::placeholder {
     color: #333;
 }
-.item input:hover, .item textarea:hover {
+input:hover {
     border: 1px solid transparent;
     box-shadow: 0 0 6px 0 #090979;
     color: #333;
-}
-.item {
-    position: relative;
-    margin: 10px 0;
 }
 .btn-block {
     margin-top: 10px;
@@ -103,14 +99,4 @@ button:hover {
 }
 .register a:hover {
     text-decoration: underline;
-}
-@media (min-width: 568px) {
-    .name-item {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .name-item input {
-        width: 50%;
-    }
 }
