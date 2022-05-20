@@ -8,7 +8,7 @@
 }
 body {
     margin: 0;
-    background-image: url("../img/giphy4.gif");
+    background-image: url("../img/imageonline-gifspeed-7621936.gif");
 }
 form, input, textarea, label, a { 
     padding: 0;
@@ -53,9 +53,12 @@ input, textarea {
     background-color: rgba(255, 255, 255, 0.226);
 }
 .title {
+    padding: 5% 0;
+    margin-bottom: 12px;
     color: #cc8b64;
     font-size: 34px;
-    padding: 5%;
+    font-weight: 600;
+    border-bottom: 2px solid #c49e879a;
 }
 input {
     width: 100%;
