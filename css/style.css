@@ -3,11 +3,12 @@
 * {
     min-height: 100%;
     box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
 body {
     margin: 0;
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-image: url("../img/giphy4.gif");
 }
 form, input, textarea, label, a { 
     padding: 0;
@@ -51,6 +52,11 @@ input, textarea {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.226);
 }
+.title {
+    color: #cc8b64;
+    font-size: 34px;
+    padding: 5%;
+}
 input {
     width: 100%;
     padding: 5px;
@@ -60,12 +66,12 @@ input:hover::placeholder {
 }
 input:hover {
     border: 1px solid transparent;
-    box-shadow: 0 0 6px 0 #090979;
+    box-shadow: 0 0 6px 0 #cc8b64;
     color: #333;
 }
 input:focus {
     border: 1px solid transparent;
-    box-shadow: 0 0 6px 0 #090979;
+    box-shadow: 0 0 6px 0 #cc8b64;
     color: #333;
 }
 
@@ -90,7 +96,7 @@ input:focus {
     padding: 10px;
     border: none;
     border-radius: 5px; 
-    background: #090979;
+    background: #cc8b64;
     font-size: 16px;
     font-weight: 600;
     color: #fff;
@@ -98,7 +104,7 @@ input:focus {
     transition: all 0.5s ease;
 }
 .btn-block button:hover {
-    background: #00d4ff;
+    background: #c49e87;
 }
 
 /* LOGIN PAGE STYLING */
@@ -113,7 +119,7 @@ input:focus {
     text-decoration: underline;
 }
 .log-in a span {
-    color: #090979;
+    color: #cc8b64;
     font-weight: 500;
 }
 .register {
@@ -129,7 +135,7 @@ input:focus {
     text-decoration: underline;
 }
 .register a span {
-    color: #090979;
+    color: #cc8b64;
     font-weight: 500;
 }
 
@@ -148,5 +154,5 @@ input:focus {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: bold;
-    color: #090979;
+    color: #cc8b64;
 }
